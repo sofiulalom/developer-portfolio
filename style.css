@@ -7,29 +7,30 @@ body{
 
 h1{
     font-size: 40px;
-    font-weight: 700;
+
 }
 h2{
     font-style: italic;
-    font-family: arial black;
     border-bottom: 2px solid magenta;
+    font-size: 30;
 
 }
 h3{
     font-style: italic;
-    font-family: arial black;
+    font-weight: 900;
     border-bottom: 2px solid mediumvioletred;
 }
 .orange-color{
     color: orange;
 }
-section{
+.flexybole-contanier{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding: 5% ;
+    
     
 }
 .half-width img{
@@ -53,10 +54,10 @@ section{
 }
 p{
     color: black;
-    font-weight: bold;
+    font-weight: 900;
     text-align: justify;
 }
-#top-banner{
+.top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
    
@@ -66,4 +67,25 @@ p{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experince-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 5%;
+    border-radius: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 4px solid blue;
+}
+#full-stack{
+    border-left: 4px solid tomato;
+}
+.Ex-aria{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
 }
